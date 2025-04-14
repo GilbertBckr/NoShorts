@@ -1,0 +1,27 @@
+ytd-rich-shelf-renderer[isShorts] {
+    visibility: collapse;
+    height: 0;
+}
+
+ytm-reel-shelf-renderer {
+    visibility: collapse;
+    height: 0;
+}
+
+
+.pivot-bar-item-tab.pivot-shorts {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+ytm-pivot-bar-item-renderer:nth-of-type(2) {
+    display: none;
+}
+
+.rich-section-content {
+    display: none
+}
+ytm-media-item.big-shorts-singleton {
+    display: none;
+}
