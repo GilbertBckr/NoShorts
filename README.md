@@ -1,16 +1,14 @@
 # youtube_but_it_sucks
 
-A new Flutter project.
+After wasting countless hours on YouTube shorts, I decided to take matters into my own hand and create a simple app that allows me to watch YouTube videos without the distractions of shorts.
+This Flutter app works by simply serving a webview of the YouTube website, with some custom css and routing rules to block out shorts.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Running the app
+To run the app, you need to have Flutter installed on your machine. You can follow the instructions on the [Flutter website](https://flutter.dev/docs/get-started/install) to set up Flutter.
+Once you have Flutter installed, you can clone this repository and run the app using the following commands:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get // Install dependencies
+flutter run // Run the app
+```
